@@ -14,7 +14,7 @@ mysql_conn = pymysql.connect(host='Host',
 mssql_engine = create_engine("mssql+pyodbc:///?odbc_connect=%s" % (
     'DRIVER={ODBC Driver 17 for SQL Server};'
     'SERVER=server;'
-    'DATABASE='database Name';'
+    'DATABASE=database_name;'
 #    'Trusted_Connection=yes;' If using window Authen
 ))
 
